@@ -1,9 +1,13 @@
 using System.Collections.Generic;
+using Mathlib.BuiltinOperations;
 using Mathlib.Interfaces;
 namespace Mathlib.Core.AST
 {
     public class BinaryOperationNode : ExpressionNode
     {
+        private ExpressionNode rightExpanded;
+        private MultiplyOperation multiplyOperation;
+
         public ExpressionNode Left { get; }
         public ExpressionNode Right { get; }
         public IMathOperation Operation { get; }
@@ -13,6 +17,14 @@ namespace Mathlib.Core.AST
             Right = right;
             Operation = operation;
         }
+
+        public BinaryOperationNode(ExpressionNode left, ExpressionNode rightExpanded, MultiplyOperation multiplyOperation)
+        {
+            Left = left;
+            this.rightExpanded = rightExpanded;
+            this.multiplyOperation = multiplyOperation;
+        }
+
         public override double Evaluate(Dictionary<string, double> variables)
         {
             var leftVal = Left.Evaluate(variables);

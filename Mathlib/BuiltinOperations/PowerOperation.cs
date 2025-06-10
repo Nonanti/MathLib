@@ -1,5 +1,6 @@
 using Mathlib.Core.Attributes;
 using Mathlib.Core;
+using Mathlib.Interfaces;
 
 [MathOperation("power", "Calculates power operation")]
 public class PowerOperation : IMathOperation

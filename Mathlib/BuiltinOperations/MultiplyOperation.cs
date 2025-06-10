@@ -1,5 +1,6 @@
 using Mathlib.Core;
 using Mathlib.Core.Attributes;
+using Mathlib.Interfaces;
 
 
 namespace Mathlib.BuiltinOperations

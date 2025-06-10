@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Mathlib.Core.Attributes;
+using Mathlib.Interfaces;
 
 namespace Mathlib.Core
 {
