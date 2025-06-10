@@ -2,7 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathlib", "Mathlib.csproj", "{F671082B-92E3-D4ED-9AF9-DF44FBDE36CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathlib", "Mathlib/Mathlib.csproj", "{F671082B-92E3-D4ED-9AF9-DF44FBDE36CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathlib.Test", "Mathlib.Test/Mathlib.Test.csproj", "{F671082B-92E3-D4ED-9AF9-DF44FBDE36CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
