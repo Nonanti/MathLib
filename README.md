@@ -1,7 +1,6 @@
 # MathLib
 
 ## ✅ To-Do
-
 - [x] Basic arithmetic expression parsing (`+`, `-`, `*`, `^`)
 - [x] Abstract Syntax Tree (AST) generation
 - [x] Expression expansion using distributive property
